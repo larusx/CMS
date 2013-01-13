@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>larusx的学生成绩管理系统</title>
+<script src="show.js"></script>
+</head>
+<body>
+<form>
+
+SELECT :
+<select name="op" onchange="showUser(this.value)">
+<option value="0">学生</option>
+<option value="1">教师</option>
+<option value="2">查看留言</option>
+
+</select>
+</form>
+<p>
+<div id="txtHint"></div>
+</p>
+</body>
+</html>
+

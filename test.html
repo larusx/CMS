@@ -1,18 +1,22 @@
 <html>
 
 <head>
+<link rel="stylesheet" href="style.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript">
+<script type="text/javascript"> 
 $(document).ready(function(){
-		$("p").click(function(){
-			$(this).hide();
-			});
+		$("p.text").click(function(){
+			    $("p.shadow").slideToggle("slow");
+				$("p.text").fadeTo("slow",0.25);
+				  });
 		});
 </script>
 </head>
 
 <body>
-<p>If you click opear.</p>
+<p class="shadow">If you click opear.</p>
+<p class="text">gogog.</p>
 </body>
 
 </html> 

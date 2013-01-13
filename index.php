@@ -2,10 +2,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>larusx的学生成绩管理系统</title>
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <center>
+<a href="https://github.com/larusx/CMS/"><img style="position: absolute; top: 0; right: 0; border: 0;"src="joinus.png" alt="Join us on GitHub" /></a>
 <div class="text shadow" >Course Manage</div>
 <!--<a href="http://myblog-larus.rhcloud.com"<>
 <img src="a.jpg" width="800" height="200"/>
