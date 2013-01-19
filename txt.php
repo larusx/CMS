@@ -18,7 +18,7 @@ if($link)
 mysql_select_db(SAE_MYSQL_DB,$link);
 }
 mysql_query("insert into text values('NULL','$txt');");
-echo "<script>alert('谢谢你的好建议～～');history.go(-1);</script>";
+echo "<script>alert('谢谢你的好建议～～～');history.go(-1);</script>";
 
 ?>
 </body>
