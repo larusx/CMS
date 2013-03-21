@@ -1,0 +1,3 @@
+handle:
+- errordoc:  404 /404.html
+- errordoc:  503 /404.html

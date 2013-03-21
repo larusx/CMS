@@ -18,29 +18,34 @@ background: -ms-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%);
 background: linear-gradient(to bottom,  #cfe7fa 0%,#6393c1 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 );
 }
+table{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse:collapse;
+text-align:right;
+}
 .text{
 width:950px;
 margin:0 auto;
 background:-webkit-linear-gradient(top,#ffffff,#000000);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
+		   -webkit-background-clip:text;
+		   -webkit-text-fill-color:transparent;
 font: bold 95px/1.231 Helvetica, Arial, FreeSans, san-serif;
-text-transform:uppercase;
+	  text-transform:uppercase;
 }
 .awesome{
 background: #222 repeat-x;
 display: inline-block;
 padding: 5px 10px 6px;
 color: #fff;
-text-decoration: none;
-font-weight: bold;
-line-height: 1;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
--moz-box-shadow: 0 1px 3px #999;
--webkit-box-shadow: 0 1px 3px #999;
-text-shadow: 0 -1px 1px #222;
-border-bottom: 1px solid #222;
+	   text-decoration: none;
+	   font-weight: bold;
+	   line-height: 1;
+	   -moz-border-radius: 5px;
+	   -webkit-border-radius: 5px;
+	   -moz-box-shadow: 0 1px 3px #999;
+	   -webkit-box-shadow: 0 1px 3px #999;
+	   text-shadow: 0 -1px 1px #222;
+	   border-bottom: 1px solid #222;
 position: relative;
 cursor: pointer;
 }
@@ -53,23 +58,23 @@ cursor: pointer;
 .button{
 font: bold Helvetica;
 color: rgb(217, 255, 230);
-font-size: 20px;
+	   font-size: 20px;
 padding: 4px;
-text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+		 text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
 background: rgb(191, 140, 161);
 background: -moz-linear-gradient(90deg, rgb(191, 140, 161) 28%, rgb(240, 133, 143) 76%);
 background: -webkit-linear-gradient(90deg, rgb(191, 140, 161) 28%, rgb(240, 133, 143) 76%);
 background: -o-linear-gradient(90deg, rgb(191, 140, 161) 28%, rgb(240, 133, 143) 76%);
 background: -ms-linear-gradient(90deg, rgb(191, 140, 161) 28%, rgb(240, 133, 143) 76%);
 background: linear-gradient(0deg, rgb(191, 140, 161) 28%, rgb(240, 133, 143) 76%);
--webkit-box-shadow: 0px 8px 30px rgba(50, 50, 50, 0.75);
--moz-box-shadow:    0px 8px 30px rgba(50, 50, 50, 0.75);
-box-shadow:         0px 8px 30px rgba(50, 50, 50, 0.75);
+			-webkit-box-shadow: 0px 8px 30px rgba(50, 50, 50, 0.75);
+			-moz-box-shadow:    0px 8px 30px rgba(50, 50, 50, 0.75);
+			box-shadow:         0px 8px 30px rgba(50, 50, 50, 0.75);
 }
 .leave{
--webkit-box-shadow: 5px 5px 25px rgba(99, 34, 50, 1);
--moz-box-shadow:    5px 5px 25px rgba(99, 34, 50, 1);
-box-shadow:         5px 5px 25px rgba(99, 34, 50, 1);
+	-webkit-box-shadow: 5px 5px 25px rgba(99, 34, 50, 1);
+	-moz-box-shadow:    5px 5px 25px rgba(99, 34, 50, 1);
+	box-shadow:         5px 5px 25px rgba(99, 34, 50, 1);
 }
 input{
 	text-shadow: 3px 3px 8px rgba(59, 105, 110, 1);
@@ -88,9 +93,9 @@ div#button{height:20px;width:40px;float:left;}
 div#footer{
 margin:0 auto;
 background:-webkit-linear-gradient(top,#fff,#000);
--webkit-background-clip:text;
+		   -webkit-background-clip:text;
 font: Helvetica, Arial, FreeSans, san-serif;
-text-transform:uppercase;
-text-align:center;
+	  text-transform:uppercase;
+	  text-align:center;
 }
 
